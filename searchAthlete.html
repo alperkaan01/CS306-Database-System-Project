@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="searchAthlete.css">
+  <title>Search Athlete</title>
+
+  <style>
+    body {
+      background: #BCCEF8
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <form action="searchResult.php" method="POST">
+      Athlete Name:
+      <input type="text" id="name" name="name">
+      Profession:
+      <input type="text" id="profession" name="profession">
+      Age:
+      <input type="number" id="age" name="age" min="1">
+      <select id="gender" name="gender">
+        <option value=""> Select Gender </option>
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+      </select>
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
+
+
+</body>
+
+</html>
