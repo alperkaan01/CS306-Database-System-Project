@@ -1,7 +1,174 @@
-div {
+body {
+    background: #BCCEF8;
+    width: 90%;
+    height: 40rem;
     justify-content: center;
 }
 
-#name {
+
+/* Style by Class */
+
+.Container {
+    position: relative;
+    top: 5rem;
+    left: 40%;
+    width: 20rem;
+    height: 35rem;
+    justify-content: center;
+    background: #FAF7F0;
+
+    border-top-right-radius: 10%;
+}
+
+.MainContainer {
+    position: relative;
+    width: 17.5rem;
+    height: 17rem;
+    padding-top: 18rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    position: absolute;
+    bottom: 5rem;
+
+    width: 17.5rem;
+    height: 30rem;
+    
+}
+
+.athlete-p {
+    position: absolute;
+    display: inline-block;
+    top: 2rem;
+    width: 10rem;
+
+    left: 10px;
+
+    font-family: 'Sacramento', cursive;
+}
+
+.prof-p {
+    position: absolute;
+    display: inline-block;
+    width: 10rem;
+    top: 7rem;
+
+    left: 10px;
+
+    font-family: 'Sacramento', cursive;
+}
+
+.age-p {
+    position: absolute;
+    display: inline-block;
+    width: 10rem;
+    top: 12.2rem;
+
+    left: 10px;
+
+    font-family: 'Sacramento', cursive;
+}
+
+.submitBtn {
+    position: absolute;
     height: 1rem;
+    top: 25rem;
+    left: 2rem;
+    border-color: white;
+    background-color: #98A8F8;
+    width: 15rem;
+    height: 3rem;
+    border-bottom-left-radius: 20px;  
+    border-top-left-radius: 20px;  
+    border-bottom-right-radius: 20px;  
+    border-top-right-radius: 20px;  
+
+    border-width: 0;
+
+    font-family: 'Sacramento', cursive;
+}
+
+/* Style by Id */
+#name {
+    position: absolute;
+    height: 1.7rem;
+    top: 5rem;
+    left: 2rem;
+
+    padding-left: 1rem;
+
+    background-color: rgba(0,0,0,0.15);
+    width: 15rem;
+    border-width: 0;
+    border-bottom-left-radius: 20px;  
+    border-top-left-radius: 20px;  
+    border-bottom-right-radius: 20px;  
+    border-top-right-radius: 20px;  
+}
+
+#profession {
+    position: absolute;
+    height: 1.7rem;
+    top: 10rem;
+    left: 2rem;
+
+    padding-left: 1rem;
+
+    background-color: rgba(0,0,0,0.15);
+    width: 15rem;
+
+    border-width: 0;
+    border-bottom-left-radius: 20px;  
+    border-top-left-radius: 20px;  
+    border-bottom-right-radius: 20px;  
+    border-top-right-radius: 20px;  
+}
+
+#age {
+    position: absolute;
+    height: 1.7rem;
+    top: 15rem;
+    left: 2rem;
+    border-top-right-radius: 10rem;
+    background-color: rgba(0,0,0,0.15);
+    width: 15rem;
+
+    padding-left: 1rem;
+    
+    border-width: 0;
+    border-bottom-left-radius: 20px;  
+    border-top-left-radius: 20px;  
+    border-bottom-right-radius: 20px;  
+    border-top-right-radius: 20px; 
+}
+
+#gender {
+    position: absolute;
+    height: 2rem;
+    
+    padding-left: 1rem;
+    top: 20rem;
+    left: 2rem;
+    border-top-right-radius: 10rem;
+    background-color: rgba(255,255,0,0.2);
+    width: 15rem;  
+
+    border-bottom-left-radius: 20px;  
+    border-top-left-radius: 20px;  
+    border-bottom-right-radius: 20px;  
+    border-top-right-radius: 20px; 
+}
+
+#male {
+    font-family: 'Sacramento', cursive;
+}
+
+#female {
+    font-family: 'Sacramento', cursive;
+}
+
+#select {
+    font-family: 'Sacramento', cursive;
 }
